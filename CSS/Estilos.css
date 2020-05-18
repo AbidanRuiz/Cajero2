@@ -1,0 +1,164 @@
+*{
+
+    padding: 0 auto ;
+    margin: 0 auto;
+}
+
+#CAJA{
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    border-radius: 30px;
+
+}
+#header_box{
+
+    width: 500px;
+    height: 250px;
+    background-color: gray;
+    
+
+}
+
+#DERECHA{
+    width: 70px;
+    height: 130px;
+    background-color: gray;
+    float: left;
+    margin: 10px;
+    padding-top: 100px;
+    border-radius: 5px;
+   
+}
+#IZQUIERDA{
+    height: 130px;
+    width: 70px;
+    background-color: gray;
+    float: left;
+    margin: 10px;
+    padding-top: 100px;
+    border-radius: 5px;
+
+}
+#CAJA_LETRA{
+    height: 230px;
+    width: 320px;
+    background-color: yellow;
+    float: left;
+    margin: 10px 0px 0px 0px;
+    
+}
+
+
+
+#main_box{
+
+    width: 500px;
+    height: 240px;
+    background-color: gray;
+    
+
+}
+#pad_number{
+    width: 180px;
+    height: 220px;
+    background-color: gray;
+    float: left;
+    margin: 10px;
+}
+
+#button_slect{
+    width: 100px;
+    height: 220px;
+    background-color: gray;
+    float: left;
+    margin: 10px 0px 0px 0px;
+    
+}
+
+#field_card{
+    width: 180px;
+    height: 220px;
+    background-color: gray;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: black;
+   
+}
+i{
+    font-size: 30px;    
+   text-align: center;
+    padding: 5px;
+    margin-left: 15px;
+    margin-top: -10px;
+    
+
+}
+
+
+.number{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-color: black;
+    
+}
+.select{
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    border-color: black;
+    
+}
+
+.icon_cr{
+    width: 140px;
+    background-color: black;
+    height: 2px;
+   
+    
+    
+}
+ .word{
+    margin-right: 2px;
+     text-align: left;
+     text-decoration: green;
+     
+ }
+ .word1{
+
+    
+    margin-right: 2px;
+    text-align: left;
+    text-decoration: green;
+    border-color: black;
+
+ }
+ 
+.Borde{
+
+    border-color: black;
+
+
+}
+
+
+
+ #word_left{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    margin-top: 60px;
+    float: left;
+}
+
+#word_right{
+    width: 130px;
+    height: 100px;
+    background-color: magenta;
+    margin-top: 60px;
+    float: right;
+    
+
+}
