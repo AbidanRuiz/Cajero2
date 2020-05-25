@@ -7,7 +7,7 @@
 #CAJA{
     width: 500px;
     height: 500px;
-    background-color: gray;
+    background-color: blanchedalmond;
     border-radius: 30px;
 
 }
@@ -15,7 +15,7 @@
 
     width: 500px;
     height: 250px;
-    background-color: gray;
+    background-color:"";
     
 
 }
@@ -41,11 +41,17 @@
 
 }
 #CAJA_LETRA{
+
+  
     height: 230px;
     width: 320px;
     background-color: yellow;
+    
     float: left;
     margin: 10px 0px 0px 0px;
+    border-radius: 10px;
+    
+    
     
 }
 
@@ -61,7 +67,7 @@
 }
 #pad_number{
     width: 180px;
-    height: 220px;
+    height: 200px;
     background-color: gray;
     float: left;
     margin: 10px;
@@ -77,7 +83,7 @@
 }
 
 #field_card{
-    width: 180px;
+    width: 170px;
     height: 220px;
     background-color: gray;
     float: left;
@@ -111,47 +117,26 @@ i{
     border-color: black;
     
 }
+.boton{
+
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+    border-color: black;
+
+}
+
 
 .icon_cr{
     width: 140px;
     background-color: black;
     height: 2px;
-   
+   margin-left: 10px;
+
     
     
 }
- .word{
-    margin-right: 2px;
-     text-align: left;
-     text-decoration: green;
-     
- }
- .word1{
 
-    
-    margin-right: 2px;
-    text-align: left;
-    text-decoration: green;
-    border-color: black;
-
- }
- 
-.Borde{
-
-    border-color: black;
-
-
-}
-
-
-
- #word_left{
-    width: 100px;
-    height: 100px;
-    background-color: chartreuse;
-    margin-top: 60px;
-    float: left;
-}
 
 #word_right{
     width: 130px;
@@ -162,3 +147,35 @@ i{
     
 
 }
+#LOGIN{
+
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid greenyellow;
+    margin: 0 auto;
+    
+    }
+    .login{
+    
+    
+    border: 1px solid white;
+    margin:2px;
+    border-radius: 5px;
+    padding-left:10px;
+    height: 20px;
+    font-size: 12px;
+    
+    
+    }
+    #resultado{
+
+
+        background-color: white;
+        padding: 9px;
+        width: 200px;
+        height: 10px;
+
+
+    }

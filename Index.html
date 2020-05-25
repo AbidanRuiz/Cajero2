@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,92 +8,117 @@
 
     <link rel="stylesheet" href="CSS/Estilos.css">
     <script src="https://kit.fontawesome.com/7b2d4bf64b.js" crossorigin="anonymous"></script>
-    
-    
+
+
 
 
 <body>
-<fieldset id="CAJA">
-    <header id="header_box">
-        <section id="IZQUIERDA">
+    <fieldset id="CAJA">
+        <header id="header_box">
+            <section id="IZQUIERDA">
 
-            <i class="fas fa-caret-square-right"></i>
-            <i class="fas fa-caret-square-right"></i>
-            <i class="fas fa-caret-square-right"></i>
-            <i class="fas fa-caret-square-right"></i>
+                <i class="fas fa-caret-square-right"></i>
+                <i class="fas fa-caret-square-right"></i>
+                <i class="fas fa-caret-square-right"></i>
+                <i class="fas fa-caret-square-right"></i>
 
-        </section>
+            </section>
 
-        <nav id="CAJA_LETRA">
-            <center><h1>!Bienvenido al banco!</h1></center>
-            <center><p>Por favor digite su clave</p></center>
-        <center><input type="password" id="pass"></center>
-           
-        </nav>
-
-        <aside id="DERECHA">
-
-            <i class="fas fa-caret-square-left"></i>
-            <i class="fas fa-caret-square-left"></i>
-            <i class="fas fa-caret-square-left"></i>
-            <i class="fas fa-caret-square-left"></i>
-           
-  
-
-        </aside>
-        
-
-    </header>
+            <nav id="CAJA_LETRA">
 
 
+                <center>
+                    <h1>!Bienvenido al banco!</h1>
+                </center><br>
 
-    <main id="main_box">
-        <section id="pad_number">
-            <input type="button" class="number" value="1">
-            <input type="button" class="number" value="2">
-            <input type="button" class="number" value="3">
-            <input type="button" class="number" value="4">
-            <input type="button" class="number" value="5">
-            <input type="button" class="number" value="6">
-            <input type="button" class="number" value="7">
-            <input type="button" class="number" value="8">
-            <input type="button" class="number" value="9">
-            <input type="button" class="number" value=" ">
-            <input type="button" class="number" value="0">
-            <input type="button" class="number" value=".">
 
-        </section>
+                <strong><label for="a">Password :</label><br></strong>
 
-        <section id="button_slect">
-            <input type="button" class="select" id="cancel" value="CANCEL">
-            <input type="button" class="select" id="clear" value="CLEAR">
-            <input type="button" class="select" id="ok" value="OK">
-            <input type="button" class="select" id="nada" value="">
+                <div type="Password" id="resultado" class="login"><div>
 
-        </section>
 
-        <section id="field_card" class="Borde">
-            <label class="word" for="a">CARD</label>
-                <button disabled>   
-                <input type="icon" class="icon_cr"  disabled>
+            </nav>
+
+            <aside id="DERECHA">
+
+                <i class="fas fa-caret-square-left"></i>
+                <i class="fas fa-caret-square-left"></i>
+                <i class="fas fa-caret-square-left"></i>
+                <i class="fas fa-caret-square-left"></i>
+
+
+
+            </aside>
+
+
+        </header>
+
+
+
+        <main id="main_box">
+            <section id="pad_number">
+
+
+
+                <button id="n1" type="button" class="number" value="1">1</button>
+                <button id="n2" type="button" class="number" value="2">2</button>
+                <button id="n3" type="button" class="number" value="3">3</button>
+                <button id="n4" type="button" class="number" value="4">4</button>
+                <button id="n5" type="button" class="number" value="5">5</button>
+                <button id="n6" type="button" class="number" value="6">6</button>
+                <button id="n7" type="button" class="number" value="7">7</button>
+                <button id="n8" type="button" class="number" value="8">8</button>
+                <button id="n9" type="button" class="number" value="9">9</button>
+                <input id="n" type="button" class="number" value=" "></input>
+                <button id="n0" type="button" class="number" value="0">0</button>
+                <input id="n" type="button" class="number" value="."></button>
+
+            </section>
+
+            <section id="button_slect">
+                <input type="button" class="select" id="cancel" value="CANCEL">
+                <input type="button" class="select" id="clear" value="CLEAR">
+                <input type="button" class="boton" id="Quitar" value="OK" onclick="login()">
+                <input type="button" class="select" id="nada" value="">
+
+            </section>
+
+            <section id="field_card" class="Borde">
+
+                <br> <strong><label class="word" for="a">CARD</label></strong>
+
+                <button disabled>
+                    <input type="icon" class="icon_cr" disabled>
                 </button>
-                
-            <label class="word" for="a">RECEPT</label>
-                <button disabled>   
-                <input type="icon" class="icon_cr"  disabled>
+
+                <strong> <label class="word" for="a">RECEPT</label></strong>
+
+                <button disabled>
+                    <input type="icon" class="icon_cr" disabled>
                 </button>
-            <label class="word" for="a">CASH</label>
-                <button disabled>   
-                <input type="icon" class="icon_cr"  disabled>
-                </button>
-            <label class="word" for="a">DEPOSIT</label>
-                <button disabled>   
-                <input type="icon" class="icon_cr"  disabled>
-                </button>
-        </section>
 
 
-    </main>
-</fieldset>
+                <strong> <label class="word" for="a">CASH</label></strong>
+
+                <button disabled>
+                    <input type="icon" class="icon_cr" disabled>
+                </button>
+
+                <strong><label class="word" for="a">DEPOSIT</label></strong>
+
+                <button disabled>
+                    <input type="icon" class="icon_cr" disabled>
+                </button>
+
+
+                <script src="JS/Javascript.js"></script>
+
+
+            </section>
+
+
+        </main>
+    </fieldset>
 </body>
+
 </html>
